@@ -1,4 +1,4 @@
-package combinator;
+package combinatorPattern;
 
 import java.time.LocalDate;
 
@@ -16,18 +16,22 @@ public class Customer {
         this.dob = dob;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    public String getEmail() {
+    public String getEmail()
+    {
         return email;
     }
 
-    public String getPhoneNumber() {
+    public String getPhoneNumber()
+    {
         return phoneNumber;
     }
-    public LocalDate getDob () {
+    public LocalDate getDob ()
+    {
         return dob;
     }
 
